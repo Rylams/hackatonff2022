@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background: #20222F;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.section-login {
+    max-width: 30%;
+    margin: 10ch auto;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    max-width: 70ch;
+    align-self: center;
+}
+.logo-image {
+    max-width: 10ch;
+    align-self: center;
+    margin-bottom: 5ch;
+}
+.form-login input {
+    margin: 0 0 2ch 0;
+    padding: 1ch;
+    border-radius: 2ch;
+}
+.form-login input:nth-child(3) {
+    margin: 0 0 5ch 0 ;
+}
+.form-login input::placeholder {
+    text-align: center;
+}
+.button-login {
+    width: 30ch;
+    align-self: center;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00D796;
+    color: white;
+    padding: 1.5ch 2ch;
+    font-weight: bold;
+}
